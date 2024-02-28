@@ -1,0 +1,40 @@
+#productsWrapper{
+display: flex;
+flex-direction: column;
+    h5{
+        text-align: center;
+        margin-top:30px;
+        padding:10px;
+        font-size: 14px;
+    }
+    img{
+        width:78vw;
+        height:300px;
+        align-self: center;
+        padding:20px;
+        margin:20px;
+    }
+    p{
+        padding:10px;
+        text-align: center;
+    }
+    hr{
+        color:red    ;
+        background-color: red;
+    height:1px;
+    margin:8px;
+    }
+    h3{
+text-align: center;
+margin:10px;
+    }
+    #list{
+        padding:10px;
+    }
+    .verticalName{
+        width:1px;
+        color: red;
+        font-weight: bolder;
+        padding:1px;
+    }
+}

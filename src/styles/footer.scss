@@ -1,0 +1,21 @@
+footer{
+    width:97.5vw;
+    height:100px;
+    background-color: rgb(235, 28, 28);
+    margin:8px;
+    color:white;
+
+    #footerWrapper{
+        display:flex;
+        justify-content: space-evenly;
+        height:70px;
+        div{
+            display: flex;
+            align-items: end;
+            img{
+                width:25px;
+                height:25px
+            }
+        }
+    }
+}

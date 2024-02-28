@@ -1,0 +1,49 @@
+
+#wrapper{
+    display:flex;
+   align-items: center;
+   justify-content: center;
+    #imageDiv{
+        align-self: self-start;
+        width:800px;
+        img{
+           width:300px;
+            height:470px;
+        }
+    }
+   
+    #dataDiv{
+        display: flex;
+        flex-direction: column;
+min-width: 100px;
+       h1{
+            font-size: 18px;
+            font-weight: 700;
+            font-family: sans-serif;
+            line-height: 20px;
+        
+        }
+        img{
+            width:80%;
+            height:370px;
+            align-self: flex-end;
+            margin-right:10%;
+            padding-right:10px;
+            margin-top:1%;
+        }
+        ul{
+            padding:10px;
+            padding-left:30px;
+
+            li{
+            }
+        
+        }
+        p{
+            padding:10px;
+        }
+    }
+    
+    
+
+}
