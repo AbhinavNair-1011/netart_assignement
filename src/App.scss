@@ -24,6 +24,8 @@
     }
  }
  #productsWrapper{
+    
+    
 
     img{
         width:100%;
@@ -45,7 +47,7 @@
 @media(max-width:600px){
     header{
         img{
-            width:330px;
+            width:300px !important;
         }
         
     }
@@ -62,6 +64,22 @@
         }
     
     }
+    
+    #productsWrapper{
+    
+  
+h5{
+    margin:0;
+    padding:0;
+}
+        img{
+            margin:0 !important;
+            padding:0 !important;
+            width:100% !important;
+            overflow: hidden;
+        }
+        
+     }
     #footerWrapper{
         div{
             img{
